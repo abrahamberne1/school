@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Merci pour ton paiement</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    min-height:100vh;
+    background:
+        radial-gradient(circle at top left,#2563eb 0%,transparent 35%),
+        radial-gradient(circle at bottom right,#0ea5e9 0%,transparent 30%),
+        #0f172a;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+}
+
+.container{
+    flex:1;
+    width:100%;
+    max-width:800px;
+    margin:auto;
+    padding:30px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card{
+    width:100%;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.15);
+    backdrop-filter:blur(20px);
+    border-radius:28px;
+    padding:55px 35px;
+    text-align:center;
+    box-shadow:0 25px 70px rgba(0,0,0,.35);
+}
+
+.check{
+    width:75px;
+    height:75px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#22c55e;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:38px;
+    box-shadow:0 10px 30px rgba(34,197,94,.35);
+}
+
+h1{
+    font-size:42px;
+    font-weight:800;
+    margin-bottom:18px;
+}
+
+.text{
+    color:#dbeafe;
+    font-size:17px;
+    line-height:1.8;
+    max-width:600px;
+    margin:0 auto 25px;
+}
+
+.number{
+    font-size:24px;
+    font-weight:800;
+    margin:20px 0 30px;
+}
+
+.whatsapp-button{
+    display:block;
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+    padding:19px 25px;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    border-radius:14px;
+    font-size:18px;
+    font-weight:700;
+    transition:.25s;
+    box-shadow:0 12px 30px rgba(37,211,102,.3);
+}
+
+.whatsapp-button:hover{
+    background:#1ebe5d;
+    transform:translateY(-3px);
+}
+
+footer{
+    text-align:center;
+    padding:25px 20px;
+    color:#94a3b8;
+    font-size:14px;
+}
+
+footer a{
+    color:#cbd5e1;
+    text-decoration:none;
+    margin:0 8px;
+}
+
+footer a:hover{
+    color:#fff;
+}
+
+@media(max-width:600px){
+
+    .card{
+        padding:40px 22px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    .text{
+        font-size:15px;
+    }
+
+    .number{
+        font-size:21px;
+    }
+
+    .whatsapp-button{
+        font-size:16px;
+    }
+
+    footer a{
+        display:inline-block;
+        margin:4px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="check">
+            ✓
+        </div>
+
+        <h1>
+            Merci !
+        </h1>
+
+        <p class="text">
+            Ton paiement a bien été effectué.
+            Pour que je puisse vérifier ton paiement et
+            te donner accès à la formation, contacte-moi
+            directement sur WhatsApp.
+        </p>
+
+        <div class="number">
+            +33 7 69 69 62 85
+        </div>
+
+        <a
+            class="whatsapp-button"
+            href="https://wa.me/33769696285?text=Bonjour%20je%20viens%20d%27effectuer%20le%20paiement%20%2C%20voici%20la%20preuve%0A%0A________________%0A%0A%2Aenvoie-moi%20la%20capture%20d%27%C3%A9cran%20du%20re%C3%A7u%20de%20paiement%2A%0A%0A________________%0A%0AMerci"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            💬 Envoyer ma preuve sur WhatsApp
+
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <a href="https://abrahamberne1.github.io/ultrabasse/music/mentionlegale">
+        Mentions légales
+    </a>
+
+    |
+
+    <a href="https://abrahamberne1.github.io/ultrabasse/music/mentionlegale">
+        Politique de confidentialité
+    </a>
+
+    |
+
+    <a href="https://abrahamberne1.github.io/ultrabasse/music/mentionlegale">
+        Contact
+    </a>
+
+</footer>
+
+</body>
+</html>
+
